@@ -1,0 +1,113 @@
+body {
+    background-image: radial-gradient(circle, rgb(87, 110, 119), rgb(8, 42, 58)) !important;
+    color: white;
+    margin: 0px;
+}
+
+header, main {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+
+.headerLeftSection {
+    display: flex;
+    width: 260px;
+    padding: 12px;
+}
+
+.headerLeftSection img {
+    height: 50px;
+    padding: 5px;
+}
+
+.headerLeftSection p {
+    display: inline-block;
+    line-height: 22px;
+    width: 163px;
+    height: 42px;
+    margin: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.headerRightSection {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    flex: 1;
+}
+
+.headerRightSectionNavOne, .headerRightSectionNavTwo, .headerRightSectionNavThree {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.headerRightSectionNavOne button {
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    padding: 5px;
+    background: none;
+    color: #ECD73F;
+    border: 1px solid rgb(255, 215, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+    transition: background-color 0.15s;
+}
+
+.headerRightSectionNavOne, .headerRightSectionNavTwo, .headerRightSectionNavThree p {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.headerRightSectionNavOne p {
+    margin-left: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    height: 36px;
+    width: 100px;
+    right: 0;
+    top: 0;
+    background-color: rgb(235, 219, 135);
+    z-index: 2px;
+}
+
+.nav p {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.5px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: none;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: rgba(0,0,0,.5);
+    padding: 7.5px;
+}

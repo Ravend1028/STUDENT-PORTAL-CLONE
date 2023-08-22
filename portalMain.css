@@ -1,0 +1,180 @@
+.descriptionsContainer {
+    display: inline-block;
+    width: 260px;
+    height: 500px;
+    margin-top: 62px;
+    padding: 12px;
+}
+
+.descriptionOne, .descriptionTwo, .descriptionThree, .descriptionFour {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descriptionOne {
+    width: 236px;
+    height: 21px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.descriptionTwo {
+    width: 284px;
+    height: 42px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.descriptionThree {
+    width: 240px;
+    height: 63px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    margin: 0px;
+}
+
+.descriptionFour {
+    width: 250px;
+    height: 42px;
+    margin-bottom: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardsContainer {
+    display: inline-flex;
+    vertical-align: top;
+    width: 900px;
+    height: 420px;
+    padding: 25px;
+    margin-top: 70px;
+}
+
+.cardsRow {
+    display: flex;
+    flex-direction: row;
+    height: 300;
+    width: 800;
+}
+
+.blackboardCard, .microsoftCard, .gradesCard {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: radial-gradient(circle, rgb(74, 94, 82), rgb(26, 33, 38)) !important;
+    width: 210px;
+    padding: 8px;
+    margin: 0px;
+    margin-right: 10px;
+    padding-right: 15px;
+    transition: transform 0.15s;
+}
+
+.blackboardCard {
+    height: 320px;
+}
+
+.microsoftCard {
+    height: 302px;
+}
+
+.gradesCard {
+    height: 284px;
+}
+
+.blackboardCard h4, .microsoftCard h4, .gradesCard h4 {
+    width: 206.75px;
+    height: 18px;
+    font-size: 15px;
+    margin: 10px;
+    display: block;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.blackboardLogo, .microsoftLogo, .gradesViewingLogo {
+    display: inline-block;
+    width: 206px;
+    height: 150px;
+    align-self: center;
+    line-height: 22.5px;
+    vertical-align: middle;
+    align-self: flex-start;
+}
+
+.blackboardCard h5, .microsoftPasswordText {
+    display: block;
+    width: 180px;
+    height: 36px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 18px;
+    margin: 0px;
+}
+
+.blackboardFooter, .microsoftFooter, .gradesViewingFooter {
+    width: 206.75px;
+    height: 18px;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.microsoftEmailText {
+    display: block;
+    width: 180px;
+    height: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 18px;
+    margin: 0px;
+}
+
+.headerRightSectionNavOne button:hover {
+    background-color: #6c757d;
+    cursor: pointer;
+}
+
+.nav:hover {
+    padding-right: 20px;
+    padding-left: 50px;
+    box-shadow: 0 0 10px #aaa;
+    animation: shadowFadeIn 0.8s;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blackboardCard:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.microsoftCard:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.gradesCard:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+

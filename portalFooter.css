@@ -1,0 +1,118 @@
+.footerContainer {
+    display: block;
+    position: relative;
+    height: 385px;
+    background-color: black;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 370px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to left,#d4b408,#e2d58f )!important;
+    background-image: linear-gradient(to left, rgb(212, 180, 8), rgb(226, 213, 143)) !important;
+}
+
+.footerSectionOne {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.footerSectionOne img {
+    width: 220px;
+    height: 75px;
+    padding-top: 15px;
+}
+
+.footerSectionTwo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.footerSectionTwo h1 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(33, 37, 41);
+}
+
+.footerSectionThree {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.sectionThreeContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sectionThreeContainer h2, .footerSectionFour h2 {
+    display: block;
+    color: rgb(33, 37, 41);
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 13.2px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.sectionThreeButtons {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.sectionThreeButtons button {
+    width: 37px;
+    height: 31px;
+    margin: 2px;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border: 1px solid rgb(0, 117, 244);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 0px #00000063;
+    border-radius: 15px;
+    transition: background-color 0.15s;
+}
+
+.footerSectionFour {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.sectionThreeButtons button:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
